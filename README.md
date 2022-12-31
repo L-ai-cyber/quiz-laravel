@@ -9,18 +9,6 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-# Demo
-Check the following demo project.
-
-**[View demo](https://quiz-exam-application.herokuapp.com/)**
-
-
-```
-Admin login
-email: admin@gmail.com
-password : password
-```
-
 # Installation
 
 1. **Clone or download this Repository.**
