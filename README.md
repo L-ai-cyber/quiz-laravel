@@ -33,12 +33,7 @@ password : password
    composer install --ignore-platform-reqs
    ```
 
-3. **Create `.env` file by copying the `.env.example`, or run the following command**
-   ```
-   cp .env.example .env
-   ```
-
-4. **Update the database name and credentials in `.env` file**  
+3. **Update the database name and credentials in `.env` file**  
    ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -47,19 +42,19 @@ password : password
     DB_USERNAME="your database username"
     DB_PASSWORD="your database password"
    ```
-5. **Run the following command**
+4. **Run the following command**
    ```
    php artisan migrate --seed
    ```
-6. **Run npm command**
+5. **Run npm command**
    ```
    npm install
    ```
-7. **Run the command to compile the theme**
+6. **Run the command to compile the theme**
     ```
     npm run dev
     ```
-8. **Finally run the application**
+7. **Finally run the application**
    ```
    php artisan serve
    ```
